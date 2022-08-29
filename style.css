@@ -12,3 +12,43 @@
 --neutural-grayish-blue: hsl(228, 12%, 48%);
 --white: hsl(0, 0%, 100%);
 }
+
+body {
+  background-color: var(--primary-clr-200);
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+.container {
+  width: 50%;
+  margin-inline: auto;
+  border-radius: 16px;
+  margin-top: 2rem;
+  background-color: var(--white);
+  overflow: hidden;
+}
+
+.even-columns {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr .8fr;
+}
+
+.img-container {
+  width: 100%;
+}
+
+.img {
+  width: 100%;
+}
+
+.info-box {
+  padding: 2rem;
+}
+
+.caption {
+  text-transform: uppercase;
+  color: var(--neutural-grayish-blue);
+  letter-spacing: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
