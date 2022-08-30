@@ -17,16 +17,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
     <!-- title  -->
   <title>Product Card Component</title>
-
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/fm-icon">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
-  <main class="">
+  <main class="main">
     <div class="container">
-      <div class="even-columns">
+      <div class="even-columns solo-columns">
         <div class="img-container">
           <img class="img" src="images/image-product-desktop.jpg" alt="Perfume bottle">
+          <img class="mobile-img" src="images/image-product-mobile.jpg" alt="Perfume bottle">
         </div>
         <div class="info-box">
           <caption>
@@ -35,15 +37,15 @@
             </p>
           </caption>
           <div class="about">
-            <h1 class="title">
+            <h1 class="title secondary-font">
               Gabrielle Essence Eau De Parfum
             </h1>
-            <p class="about-info">
-              A floral, solar, and voluptuous interpretation composed by Olivier Ploge, Perfumer-Creator for the House of CHANEL
+            <p class="description">
+              A floral, solar, and voluptuous interpretation composed by Olivier Ploge, Perfumer-Creator for the House of CHANEL.
             </p>
           </div>
           <div class="price-box">
-            <p>$149.99 <sub><s>$169.99</s></sub></p>
+            <p class="secondary-font">$149.99</p>
             <button class="btn">
               Add to cart
             </button>
